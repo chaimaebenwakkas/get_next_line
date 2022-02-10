@@ -6,7 +6,7 @@
 /*   By: cben-wak <cben-wak@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/01/10 13:39:36 by cben-wak          #+#    #+#             */
-/*   Updated: 2022/02/10 13:07:14 by cben-wak         ###   ########.fr       */
+/*   Updated: 2022/02/10 16:14:47 by cben-wak         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -38,7 +38,6 @@ char	*ft_strjoin(char *s1, char *s2)
 	if (!new)
 		return (NULL);
 	i = 0;
-	j = 0;
 	while (i < o_len)
 		new[i++] = s1[j++];
 	j = 0;
